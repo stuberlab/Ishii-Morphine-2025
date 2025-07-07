@@ -1,0 +1,234 @@
+acronym,name
+FrA,Frontal association cortex
+M1,Primary motor cortex
+M2,Secondary motor cortex
+S1,Primary somatosensory cortex
+S2,Secondary somatosensory cortex
+A24a (IL),"Cingulate cortex, area 24a (infralimbic)"
+DI,Dysgranular insular cortex
+GI,Granular insular cortex
+AuD,"Secondary auditory cortex, dorsal area"
+Au1,Primary auditory cortex
+AuV,"Secondary auditory cortex, ventral area"
+V2L,"Secondary visual cortex, lateral area"
+V2M,"Secondary Visual Cortex, Medial area"
+V1,Primary visual cortex
+A24 (Cg),Cingulate cortex
+A32 (PrL),"Cingulate cortex, area 32 (Prelimbic cortex)"
+O,Orbital cortex
+AI,Agranular insular cortex
+A29-30 (RS),"Cingulate cortex, area 29 and 30 (retrosplenial cortex)"
+PtA,parietal association cortex
+TeA ,Temporal association cortex
+PRh,Perihinal cortex
+Ect,Ectorhinal cortex
+MOB,Main olfactory bulb
+AOB,Accessory olfactory bulb
+AO,Anterior olfactory area
+TT,Taenia tecta
+A25 (DP),"Cingulate cortex, area 25 (dorsal peduncular cortex)"
+PIR,Piriform cortex
+LOT,Nucleus of the lateral olfactory tract
+CO,cortical amygdaloid nucleus
+PLCo,Posterolateral cortical amygdaloid area
+PMCo,Posteromedial cortical amygdaloid area
+RAPir,Rostral amygdalopiriform area
+Apir,Amygdalopiriform transition area
+CA1,Field CA1 of the hippocampus
+CA2,Field CA2 of the hippocampus
+CA3,Field CA3 of the hippocampus
+DG,Dentate gyrus
+FC,Fasciola cinereum
+IG,Induseum griseum
+DLEnt,Dorsolateral entorhinal cortex
+DIEnt,Dorsal intermediate entorhinal cortex
+VIEnt,Ventral intermediate entorhinal cortex
+MEnt,Medial entorhinal cortex
+CEnt,Caudomedial entothinal cortex
+PaS,Parasubiculum
+Post,Postsubiculum
+PsS,Presubiculum
+DS,Dorsal subiculum
+VeS,Ventral subiculum
+STr,"Subiculum, transition area"
+Cl,Claustrum
+DEn ,Dorsal endopiriform nucleus
+VEn,Ventral endopiriform nucleus
+IEn,Intermediate endopiriform claustrum
+REn,Retroendopiriform nucleus 
+La,Lateral amygdaloid nucleus
+BL,Basolateral amygdalar nucleus
+BM,Basomedial amygdalar nucleus
+AHi,Amygdalohippocampal area
+CPre,Caudoputamen- rostral extreme
+CPr,Caudoputamen- rostral
+CPi,Caudoputamen- intermediate
+CPc,Caudoputamen- caudal
+CPce,Caudoputamen- caudal extreme
+LSS,Lateral stripe of the striatum 
+ASt ,Amygdalostriatal transition area
+AcbC,"Accumbens nucleus, core region"
+AcbSh,"Accumbens nucleus, shell region"
+LAcbSh,"Lateral accumbens, shell region"
+IPAC,Interstitial nucleus of the posterior limb of the anterior commissure
+Tu,Olfactory tubercle
+LS,Lateral septal nucleus
+SFi ,Septofimbrial nucleus
+SHi ,Septohippocampal nucleus
+SHy ,Septohypothalamic nucleus
+AA,Anterior amygdaloid area
+BAOT,Bed nucleus of the accessory olfactory tract
+Ce,Central amygdalar nucleus
+I,Intercalated nuclei of the amygdala
+Me,Medial amygdaloid nucleus
+GP,Globus pallidus
+EP,Entopeduncular nucleus
+VeP,Ventral pallidum
+SI,Substantia innominata
+MSC,Medial septal complex
+TS,Triangular septal nucleus
+SM,Nucleus of stria medullaris
+ST,Bed nuclei of the stria terminalis
+BAC,Bed nucleus of the anterior commissure
+PVG,Periventricular gray 
+Eth,Ethmoid thalamic nucleus
+REth,Retroethmoid nucleus
+Sc,Scaphoid thalamic nucleus
+PIL,Posterior intralaminar thalamic nucleus
+VL,Ventrolateral thalamic nucleus
+VA,Ventral anterior thalamic nucleus
+VM,Ventromedial thalamic nucleus
+VP,Ventral posterior thalamic nucleus
+SPF,Subparafascicular thalamic nucleus
+PP,Peripeduncular nucleus
+SubB,Subbrachial nucleus
+MG,Medial geniculate nucleus
+DLG,Dorsal lateral geniculate nucleus
+LP,Lateral posterior thalamic nucleus
+IMA,Intramedullary thalamic area
+Po,Posterior thalamic nuclear group
+PLi,Posterior limitans thalamic nucleus
+SG,Suprageniculate thalamic nucleus
+AV,Anteroventral thalamic nucleus
+AM,Anteromedial thalamic nucleus
+AD,Anterodorsal thalamic nucleus
+IAM,Interanteromedial thalamic nucleus
+IAD,Interanterodorsal thalamic nucleus
+LD,Lateral dorsal nucleus of thalamus
+IMD,Intermediodorsal thalamic nucleus
+PoMn,Posteromedian thalamic nucleus
+MD,Mediodorsal thalamic nucleus
+Sub,Submedius thalamic nucleus
+PVT,Paraventricular nucleus of the thalamus
+PT,Parataenial thalamic nucleus
+Xi,Xiphoid thalamic nucleus
+ANS,Accessory neuosecretory nuclei
+RE,Reuniens area
+Rh,Rhomboid thalamic nucleus
+CM,Central medial thalamic nucleus
+PC,Paracentral thalamic nucleus
+CL,Centrolateral thalamic nucleus
+PaF,Parafascicular thalamic nucleus
+Rt,Reticular nucleus (prethalamus)
+IGL,Intergeniculate childlet
+PrG,Pregeniculate nucleus of the prethalamus
+SubG,Subgeniculate nucleus of the prethalamus
+MHb,Medial habenular nucleus
+LHb,Lateral habenular nucleus
+SOR,"Supraoptic nucleus, retrochiasmatic part"
+ESO,Episupraoptic nucleus
+ASO,Accessory supraoptic group
+PVH,"Paraventricular hypothalamic nucleus, anterior part"
+PaV,"Paraventricular hypothalamic nucleus, ventral part"
+Arc,Arcuate hypothalamic nucleus
+AVPe,Anteroventral periventricular nucleus
+DA,Dorsal hypothalamic area
+DM,Dorsomedial hypothalamic nucleus
+MnPO,Median preoptic nucleus
+MPA,Medial preoptic area
+VOLT,Vascular organ of the lamina terminalis
+PDPO,Posterodorsal preoptic nucleus
+PS,Parastrial nucleus
+Pe,Periventricular hypothalamic nucleus
+SPa ,Subparaventricular zone of the hypothalamus
+SCh,Suprachiasmatic nucleus
+SFO,Subfornical organ
+VMPO,Ventromedidal preoptic nucleus
+VLPO,Ventrolateral preoptic nucleus
+AHN,Anterior hypothalamic nucleus
+MBO,Mammillary body
+MPO,Medial preoptic nucleus
+PMD,"Premamillary nucleus, dorsal part"
+PMV,"Premamillary nucleus, ventral part"
+PVHd,"Paraventricular hypothalamic nucleus, descending division"
+VMH,Ventromedial hypothalamic nucleus
+PHA,Posterior hypothalamic area
+LH,Lateral hypothalamic area
+LPO,Lateral preoptic area
+PTe,Paraterete nucleus
+PSTh,Parasubthalamic nucleus
+RCh,Retrochiasmatic area
+STh,Subthalamic nucleus
+SubI,Subincertal nucleus
+MTu,Medial tuberal nucleus
+PeF,Perifornical nucleus
+VLi,Ventral linear nucleus of the thalamus
+ZI,Zona incerta
+SCs,"Superior colliculus, sensory related"
+CIC,Central nucleus of the inferior colliculus
+DCIC,Dorsal cortex of the inferior colliculus
+ECIC,External cortex of the inferior colliculus
+Com,Commissural nucleus of the inferior colliculus
+BIC,Nucleus of the brachium of the inferior colliculus
+Sag,Sagulum nucleus
+PBG,Parabigeminal nucleus
+MiTg,Microcellular tegmental nucleus
+SCO,Subcommissural organ 
+mRt,Mesencephalic reticular formation
+p1Rt,prosomere 1 reticular formation
+isRt,Isthmic reticular formation
+PaR,Pararubral nucleus
+SNR,"Substantia nigra, reticular part"
+VTA,Ventral tegmental area
+RRF,Retrorubral field
+SCm,"Superior colliculus, motor related"
+DMPAG,Dorsomedial periaqueductal gray
+LPAG,Lateral periaqueductal gray
+PlPAG,Pleoglial periaqueductal gray
+DLPAG,Dorsolateral periaqueductal gray
+VLPAG,Ventrolateral periaqueductal gray
+p1PAG,prosomere 1 periaqueductal gray
+Lth,Lithoid nucleus
+PrC,Precommissural nucleus
+InC,Interstitial nucleus of Cajal
+Dk,Nucleus of Darkschewitsch
+Su3C,Supraoculomotor cap
+Su3,Supraoculomotor periaqueductal gray
+APT,Anterior pretectal nucleus
+MPT,Medial pretectal area
+ReC,Retrocommissural nucleus
+OT,Nucleus of the optic tract
+PCom,Nucleus of the posterior commissure
+OPT,Olivary pretectal nucleus
+PPT,Posterior pretectal nucleus
+RPF,Retroparafascicular nucleus
+PrCnF,Precuneiform area
+RPC,"Red nucleus, parvicellular part"
+RMC,"Red nucleus, magnocellular part"
+MA3,Medial accessory oculomotor nucleus
+3PC,"Oculomotor nucleus, parvicellular part"
+PrEW,Pre-Edinger-Westphal nucleus
+4Sh,Trochlear nucleus shell region
+Pa4,Paratrochlear nucleus
+VTg,Ventral tegmental nucleus
+ATg,Anterior tegmental nucleus
+DT,Dorsal terminal nucleus
+MT,Medial terminal nucleus
+SNL,"Substantia nigra, lateral part"
+SNC,"Substantia nigra, compact part"
+SPTg,Subpeduncular tegmental nucleus
+IF,Interfascicular nucleus
+IP,Interpeduncular nucleus
+RLi ,Rostral linear nucleus (midbrain)
+CLi,Caudal linear nucleus of the raphÈ
+DR,Dorsal raphÈ nucleus
