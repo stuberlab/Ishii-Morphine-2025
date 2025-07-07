@@ -36,14 +36,14 @@ from abc_atlas_access.abc_atlas_cache.abc_project_cache import AbcProjectCache
 # =============================================================================
 
 # Define data paths
-download_base = pathlib.Path(r'\\10.159.50.7\LabCommon\Ken\data\Opioid_cFos\Allen_Alignment')
-result_path = r"\\10.159.50.7\LabCommon\Ken\data\Opioid_cFos\Allen_Alignment\summarized_data"
+download_base = pathlib.Path("data/allen_alignment/download")
+result_path = "data/allen_alignment/summarized_data"
 
 # Atlas registration paths
-allen_template_path = r"\\10.159.50.7\Analysis2\Ken\ClearMap\clearmap_ressources_mouse_brain\ClearMap_ressources\Regions_annotations\Allen_templates\template_25_coronal.tif"
-kim_template_path = r"\\10.159.50.7\Analysis2\Ken\ClearMap\clearmap_ressources_mouse_brain\ClearMap_ressources\Regions_annotations\Kim_ref_adult_v1_brain.tif"
-kim_annotation_path = r"\\10.159.50.7\Analysis2\Ken\ClearMap\clearmap_ressources_mouse_brain\ClearMap_ressources\Regions_annotations\Kim_ref_adult_FP-label_v2.9.tif"
-output_path = r"\\10.159.50.7\Analysis2\Ken\ClearMap\clearmap_ressources_mouse_brain\ClearMap_ressources\Regions_annotations"
+allen_template_path = "data/atlas/templates/template_25_coronal.tif"
+kim_template_path = "data/atlas/templates/Kim_ref_adult_v1_brain.tif"
+kim_annotation_path = "data/atlas/templates/Kim_ref_adult_FP-label_v2.9.tif"
+output_path = "data/atlas"
 
 # Registration parameters
 registration_key = 'Kim_to_allen25'
@@ -193,7 +193,7 @@ kim_coordinates.rename(columns={'z': 'z_kim', 'y': 'y_kim', 'x': 'x_kim'}, inpla
 
 # Load Kim atlas for region labeling
 print("Loading Kim atlas for region annotation...")
-kim_atlas_img = tiff.imread(r"\\10.159.50.7\Analysis2\Ken\ClearMap\clearmap_ressources_mouse_brain\ClearMap_ressources\Regions_annotations\Kim_ref_adult_FP-label_v4.0.tif")
+kim_atlas_img = tiff.imread("data/atlas/Kim_ref_adult_FP-label_v4.0.tif")
 
 # Get Kim region labels for each transformed coordinate
 coords_int = kim_coordinates[['x_kim', 'y_kim', 'z_kim']].values.astype(int)

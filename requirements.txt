@@ -1,0 +1,39 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Image processing
+tifffile>=2021.7.0
+Pillow>=8.3.0
+
+# Medical imaging and registration
+ants>=0.2.0
+
+# Data storage and manipulation
+zarr>=2.10.0
+dask>=2021.9.0
+
+# Network analysis
+networkx>=2.6.0
+
+# Statistical analysis
+statsmodels>=0.13.0
+scikit-learn>=1.0.0
+
+# Jupyter and notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=6.4.0
+
+# Allen Brain Atlas access
+abc-atlas-access>=0.1.0
+
+# Additional utilities
+pathlib2>=2.3.0
+tqdm>=4.62.0 

@@ -136,8 +136,10 @@ def run_tree_fdr_pipeline(
 # ----------------------------- #
 
 if __name__ == "__main__":
-    input_csv = r"G:/My Drive/Opioid_whole_brain_manuscript/result/Figure2_C_glm_stat_df_no_batch.csv"
-    output_dir = r"G:/My Drive/Opioid_whole_brain_manuscript/result"
+    # Example usage with data directory
+    input_csv = "data/results/Figure2_C_glm_stat_df_no_batch.csv"
+    output_dir = "data/results"
+    
     run_tree_fdr_pipeline(
         input_csv,
         output_dir,
