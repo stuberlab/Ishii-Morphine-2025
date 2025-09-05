@@ -1,36 +1,6 @@
 # Ishii-Morphine-2025
 
-This repository contains analysis notebooks and scripts for opioid research data analysis.
-
-## Data Organization
-
-The project uses a simple data structure. All data should be placed in the `data/` directory with the following structure:
-
-```
-data/
-├── atlas/                          # Brain atlas files
-│   ├── atlas_info_KimRef_FPbasedLabel_v4.0_brain_with_size_with_curated_with_cleaned_acronyms.csv
-│   ├── Kim_ref_adult_FP-label_v4.0.tif
-│   ├── Kim_ref_adult_FP-label_v2.9_contour_map.tif
-│   └── templates/                  # Atlas templates for registration
-│       ├── template_25_coronal.tif
-│       ├── Kim_ref_adult_v1_brain.tif
-│       └── Kim_ref_adult_FP-label_v2.9.tif
-├── lsms/                          # LSMS experimental data
-│   └── Opioid/
-├── opioid_cfos/                   # Opioid cFos data
-│   ├── result/                    # Analysis results
-│   ├── heatmap_array/             # Heatmap data
-│   └── gene_expression.zarr       # Gene expression data
-├── allen_alignment/               # Allen Brain alignment data
-│   ├── download/                  # Downloaded Allen data
-│   └── summarized_data/           # Summarized alignment results
-│       └── gene_df.csv
-├── spatial_clustering_results/    # Spatial clustering analysis
-│   └── 2025_04_02-12_34/
-├── fentanyl/                      # Fentanyl experimental data
-└── results/                       # General output results
-```
+This repository contains analysis notebooks and scripts for Ishii et al-2025.
 
 ## Setup Instructions
 
@@ -68,16 +38,15 @@ The notebooks in the `notebooks/` directory have been updated to use relative pa
 - `Opioid_Figure 7.ipynb` - Gene expression analysis
 - `Opioid_Figure 8.ipynb` - Final analysis
 - `update_labels.ipynb` - Label processing
+
+Helper functions
 - `active_sunburst.py` - Visualization utilities
-- `allen_merfish_kim_voxelization.py` - Allen Brain data processing
-- `TreeBH.py` - Statistical analysis
 - `create_mask_for_region.py` - Region masking utilities
 
-## Usage
+For BRANCH testing check the following repository
+- TreeBH:
+- BRANCH test: a wrapper for TreeBH and associated functions to better suit whole-brain datasets
 
-1. Ensure your data is properly organized in the `data/` directory
-2. Open and run the notebooks in order
-3. Results will be saved to the appropriate output directories
 
 ## Dependencies
 
@@ -95,7 +64,3 @@ Key dependencies include:
 - scipy
 
 See `requirements.txt` for the complete list.
-
-## License
-
-[Add your license information here]
