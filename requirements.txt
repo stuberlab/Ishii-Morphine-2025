@@ -26,6 +26,12 @@ networkx>=2.6.0
 statsmodels>=0.13.0
 scikit-learn>=1.0.0
 
+# Dimensionality reduction / clustering / annotation (Figure 4 clustering)
+umap-learn>=0.5.0
+hdbscan>=0.8.0
+adjustText>=0.8
+statannotations>=0.5
+
 # Jupyter and notebook support
 jupyter>=1.0.0
 ipykernel>=6.0.0
@@ -33,6 +39,19 @@ notebook>=6.4.0
 
 # Allen Brain Atlas access
 abc-atlas-access>=0.1.0
+
+# Brain visualization helpers (overlap_contour, set_transparency, get_subregions, sunburst)
+# Canonical source for all figure visualization functions.
+brain-vis @ git+https://github.com/kenjp1223/brainvis
+
+# Searchlight local-correlation package (Figure S16).
+neurolight @ git+https://github.com/kenjp1223/neurolight
+
+# Semi-NMF factorization package (Figure 6 spatial clustering results). Provides
+# `fos.seminmf_counts_2` (initialize_nnsvd, fit_poisson_seminmf). Requires jax.
+# Only needed to regenerate the factors (params.mat / factors.zarr); if you use the
+# provided factor results you don't need to run it.
+fos @ git+https://github.com/kenjp1223/fos
 
 # Additional utilities
 pathlib2>=2.3.0

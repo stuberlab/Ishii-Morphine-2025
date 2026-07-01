@@ -6,17 +6,17 @@ library(htmltools)
 
 # Setup the GLM for non-experimental condition tests
 #ken <- read.csv("./merge_Annotated_counts_clean_with_density.csv")
-ken <- read.csv("G:/My Drive/Opioid_whole_brain_manuscript/result/Figure2_C_glm_stat_df_no_batch.csv")
-output_path = "G:/My Drive/Opioid_whole_brain_manuscript/result"
+ken <- read.csv("Figure2_C_glm_stat_df.csv")
+output_path = "result"
 dat <- drop_na(ken)
 
 
 # Assuming 'Variables' is a list of variable names
-qvalue_threshold = .001
+qvalue_threshold = .01
 #qvalue_threshold = .1
 # Assuming 'dat' is your data frame
 var = 'pvalue'
-save_key = 'Figure2_C_glm_stat_df_no_batch'
+save_key = 'Figure2_C_glm_stat_df'
 dat$t.p.val <- dat[[var]]  # Perform your operation here
 
 #dat$t.p.val <- dat$Saline
