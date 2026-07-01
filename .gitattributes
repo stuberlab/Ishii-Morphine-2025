@@ -1,0 +1,10 @@
+# Track data files with Git LFS
+data/**/*.pickle filter=lfs diff=lfs merge=lfs -text
+data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+data/**/*.tif filter=lfs diff=lfs merge=lfs -text
+data/**/*.npy filter=lfs diff=lfs merge=lfs -text
+data/**/*.zarr filter=lfs diff=lfs merge=lfs -text
+data/**/zarr.json filter=lfs diff=lfs merge=lfs -text
+
+# Track entire data directory structure
+data/ filter=lfs diff=lfs merge=lfs -text
