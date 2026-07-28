@@ -1,0 +1,29 @@
+# ---- OS / editor junk ----
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- Local tool state ----
+.claude/
+
+# ---- Data lives in the Figshare deposit, NOT in this repo (code-only) ----
+# Legacy staging folders (removed; see CLEANUP.md):
+/data/
+/meta/
+/notebooks/
+
+# Per-group data / figures / tables folders are not part of the code repo
+# (data comes from the Figshare deposit; figures & tables are generated at run time).
+analysis/**/data/
+analysis/**/figures/
+analysis/**/tables/
+analysis/shared/atlas/
+
+# Per-folder READMEs are redundant with analysis/MAPPING.md + DATA_MANIFEST.md.
+# Keep those two and the top-level repo README; ignore the per-folder ones.
+analysis/**/README.md
